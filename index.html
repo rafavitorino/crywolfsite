@@ -2,75 +2,288 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/landing1.css">
 	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script><!--LINK PARA FONTE DE ÍCONES DO W3SCHOOLS-->
-	<title>Mcrywolf.com</title>
-	<style>
-		picture {
-			display: flex;
-            justify-content: center;
-            align-items: center;
-		}
-	</style>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<title>Crywolf Site landing-page</title>
 </head>
-<body>
-
-	<header class="cabeca"><!--ESSE É O CABEÇALHO AONDE ESTÁ A LOGO-->
-		<picture>
-			<source media="(max-width: 350px)" srcset="img/logo-300.png" type="image/png">
-			<img style="align-items: center;" src="img/logo.png">
-		</picture>
-		
+<body style="background-color: black;">
+	<header class=" mb-4" style="background-color: #000;">          
+                <nav>
+                <ul>
+                    <li class="nav-item">
+                    <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#" >Musics</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#">Albums</a>
+                    </li >
+                </ul>
+                </nav>
 	</header>
-	<nav class="navegacao"><!--ESSE É O MENU DE NAVEGAÇÃO-->
-		<ul>
-			<li><a href="index.html">Sobre Crywolf</a></li>
-			<li><a href="pag2.html">Anachronism</a></li>
-			<li><a href="pag3.html">Fawn</a></li>
-		</ul>
-		<ul class="social-icons">
-			<li><a href="https://www.youtube.com/user/RunCryWolf" target="_blank" rel="external"><i class='fab fa-youtube'style='font-size:24px'></i></a></li>
-			<li><a href="https://www.instagram.com/runcrywolf/" target="_blank" rel="externa"><i class='fab fa-instagram' style='font-size:24px'></i></a></li>
-		</ul>
-	</nav>
+    <aside>      
+        <div class="container-fluid">
+            <!-- INTRODUÇÃO -->
+            <div class="row">
+                <div class="col-md-6 col-sm-12 ps-5">
+                    <div class="row mb-5">
+                        <div class="col-sm-12"><img src="img/logo.png" alt="Crywolf-logo" class="mt-4 img-fluid" id="crywolf-logo"></div>                     
+                    </div>
+                    <div class="row mb-5">
+                        <p class="text-ldp">
+                            Mergulhe no universo sonoro de Crywolf, um artista que desafia as convenções da música eletrônica. Nesta landing page, você descobrirá a jornada de Justin Taylor Phillips, um visionário que transcende gêneros, criando paisagens sonoras etéreas e emocionantes. Prepare-se para explorar um mundo onde a melodia se encontra com a experimentação, e a emoção se funde com a tecnologia.
+                        </p>
+                    </div>
+                    <!-- BOTÕES -->                 
+                    <div class="row" >
+                        <div class="col-md-6 col-sm-12 text-end " >
+                            <a href="https://open.spotify.com/intl-pt/artist/33o00sXuyWiApOFzo0vr0z?si=V5f1IzLqSeujf4mNYLqG6Q" target="_blank">
+                                <button class="botao-spotify" type="button">
+                                    <i class="bi bi-spotify"></i><span class="span-btn">Spotify</span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-12 text-start" >
+                            <button class="botao-youtube" type="button">
+                                <i class="bi bi-youtube"></i><span class="span-btn">Youtube</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- IMAGEM DO ARTISTA -->
+                <div class=" col-md-6 col-sm-12 align-items-start order-1">
+                    <img src="img/Album_Skeletons_removed.png" alt="crywolf" class="img-fluid" style="width: 100%; height: 100%">
+                </div>
+            </div>
+            <div class="container-fluid p-5" id="spotify-container">
+                <div class="row justify-content-center">
+                    <h2 class="text-center mb-5" id="titulo">Experimente</h2>
+                    <div class="col-12">
+                        <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/artist/33o00sXuyWiApOFzo0vr0z?utm_source=generator&theme=0" width="100%" height="740" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-6">
 
-	<div class="divisao1">
-		<img src="img/crywolf3.jpg" alt="crywolf">
-      <p><br>
-      	Justin Taylor Philips, mais conhecido por seu nome artístico Crywolf,<br />
-      	começou como um produtor de dubstep uptempo. Após sua estréia no EP Ghosts ,<br>
-      	seu estilo começou a evoluir para longe do familiar e do experimental.<br>
-      	No final de 2015, Justin lançou seu álbum de estréia, Cataclasm, que foi uma mudança<br>
-      	completa de estilo e ritmo para o artista. Em 2017, seu acompanhamento EP Skeletons foi lançado.<br>
-      	Nisso, ele evoluiu e definiu o som, tornando-se mais cinematográfico e revisitando seus velhos tempos eletrônicos.<br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-5"><!-- ALBUNS -->
+                <h2 class="text-center mb-5" id="titulo">Albums</h2>
+                <div class="row" style="padding-left: 10%;padding-right: 10%;">             
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card1 -->
+                                            <div class="card" style="width: 18rem;" id="cards">
+                                                <a href="#LetMeBeYourWomb"><img src="img/Album_Novo.jpg" class="card-img-top" alt="Album Cataclasm"></a>
+                                                <div class="card-body">
+                                                <h5 class="card-title"><a href="#LetMeBeYourWomb">let me be your womb</a></h5>
+                                                <p class="card-text">2024</p>
+                                                </div>
+                                            </div>  
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card1 -->
+                                            <div class="card" style="width: 18rem;" id="cards">
+                                                <a href="#Cataclasm"><img src="img/Album_Cataclasm.jpg" class="card-img-top" alt="Album Cataclasm"></a>
+                                                <div class="card-body">
+                                                <h5 class="card-title"><a href="#Cataclasm">Cataclasm</a></h5>
+                                                <p class="card-text">2015</p>
+                                                </div>
+                                            </div>  
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                    <!-- Card2 -->
+                                    <div class="card" style="width: 18rem;">
+                                        <a href=""><img src="img/Album_Dysphoria.jpg" class="card-img-top" alt="Album Dysphoria"></a>
+                                        <div class="card-body">
+                                        <h5 class="card-title"><a href="">Dysphoria</a></h5>
+                                        <p class="card-text">2015</p>                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card3 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_ExuviumPtII.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Exuvium [Oblivion Pt.2]</a></h5>
+                                            <p class="card-text">2022</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card4 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_WidowOblivionPtI.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Widow [Oblivion Pt.1]</a></h5>
+                                            <p class="card-text">2019</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card5 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_Ghosts.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Ghosts EP</a></h5>
+                                            <p class="card-text">2013</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card6 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_Skeletons.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Skeletons</a></h5>
+                                            <p class="card-text">2017</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card7 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_Runaway.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Runaway</a></h5>
+                                            <p class="card-text">2014</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card8 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/Album_OMINIVIOLENCE.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">OMINIVIOLENCE EP</a></h5>
+                                            <p class="card-text">2023</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card9 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/EP_Angels.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Angels EP</a></h5>
+                                            <p class="card-text">2014</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-5">
+                                        <!-- Card10 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/EP_LostTapes.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">Lost Tapes EP</a></h5>
+                                            <p class="card-text">2022</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-4">
+                                        <!-- Card11 -->
+                                        <div class="card" style="width: 18rem;">
+                                            <a href=""><img src="img/EP_NotToBeHear.jpg" class="card-img-top" alt="Album Ghosts"></a>
+                                            <div class="card-body">
+                                            <h5 class="card-title"><a href="">not to be here, not to be anywhere EP</a></h5>
+                                            <p class="card-text">2023</p>                             
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div><!-- Aqui fecha a row-->
+                        </div>                    
+                    </div><!-- Aqui fecha o container --> 
+                    <!-- MUSICAS CONTAINER-->
+                    <div class="container-fluid p-5" id="spotify-container">
+                        <h2 class="text-center mb-5" id="titulo">SoundTrack</h2>
+                        <div class="row justify-content-center">
+                            
+                            <!-- Let Me Be your womb -->
+                            <!-- <div class="col-md-6 col-sm-12 text-center mb-3">
+                                <img src="img/Album_Novo.jpg" class="img-fluid" alt="" style="width: 65%; height: 500px; border-radius: 15px;">
+                            </div> -->
+                            <div class="col-md-6 col-sm-12 mb-5" id="LetMeBeYourWomb"">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7MPePQErBobcQ2waJ2A4zy?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>     
+                            <!-- Let Me Be your womb -->
+                            <!-- <div class="col-md-6 col-sm-12 text-center mb-3">
+                                <img src="img/Album_Novo.jpg" class="img-fluid" alt="" style="width: 65%; height: 500px; border-radius: 15px;">
+                            </div> -->
+                        </div>
+                        <div class="row justify-content-center" >
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/14xtsswWIE0QhIGrtp8WKy?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>  
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3kaDFfyhJAK0Q5nrtRIOZ0?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2tUsztcpAksZZEuaXGwGyG?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>         
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2WUKbxJ4CpPxGLr7QuvjgO?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>     
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7pC2Yf8Sw1ggv4t78HqLDr?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4xzeWveK3gKMoJJAMkKzqI?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>
 
-		Sua música "Whisper" foi usada no longa-metragem de 2014 da Lifetime, The Choking Game.
-      </p>
-	</div>
-     
-	<div class="divisao2">
-		<img src="img/dysphoria.jpg" class="dysphoria"/>
-		<h2>Album Dysphoria</h2>
-		<p><br>
-		“Muitas pessoas falam sobre euforia, mas muito poucas falam sobre seu oposto, disforia.<br>
-		 A disforia é definida como um "estado profundo de desconforto ou isolamento percebido".<br>
-		 Os gregos antigos acreditavam que os estados de disforia eram induzidos pela presença de divindades misteriosas,<br>
-		 potências estrangeiras com motivos desconhecidos.<br>
-		 Se uma divindade estrangeira estivesse próxima, você começaria a sentir o mundo estranho deles penetrando no seu, sangrando.<br><br>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/72BNny10RGDXyNRTQH2UzQ?utm_source=generator" width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>
 
-		- Crywolf<br>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3Vteh3ETVhBIoYvnEe4Wrl?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>                        
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6yCfouNXuCCvjr06bgDUAk?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>                        
+                        </div>
 
-		O 5º EP de Justin Taylor Philips, ou mais conhecido como Crywolf, nos traz sua transição<br>
-		completa das raízes dubstep / electro de seus 3 primeiros EPs.<br>
-		Dysphoria estabelece uma paisagem sonora muito mais eclética e interessante do que seus<br>
-		trabalhos anteriores, mostrando-nos que Justin agora está formando seu próprio tipo de som, sem restrições de gênero.<br>
-		</p>
-	</div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5C1NVPaMbfirwaJAUjtViK?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>                        
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 mb-5" id="Cataclasm">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6ZCXcpTeM7qWG5bm0eAboM?utm_source=generator" width="100%" height="465" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>                        
+                        </div>
+ 
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </aside>
 
-
-	<div class="rodape">
-
+	<div class="rodape container-fluid p-3">
+    <h4 class="text-center">Developed by Rafael Jesus,<span>a great fan</span></h4>
 	</div>
 
 

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Roboto','Sans-serif';
+}
+#crywolf-logo{
+    width: 80%;
+}
+ul{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+}
+nav > ul > li > a{
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li > a:hover{
+    color: orange;
+}
+.nav-item a{
+    font-family: 'Montserrat', 'sans-serif', 'Roboto';
+    font-size: 1.4em;
+}
+.nav-item a:hover{
+    font-family: 'Montserrat', 'sans-serif', 'Roboto';
+    font-size: 1.4em;
+    color: orange !important;
+    text-decoration: none !important;
+}
+.text-ldp{
+    font-family: 'Montserrat', 'sans-serif', 'Roboto';
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+}
+button{
+    border: 1px solid white !important;
+    background-color: transparent;
+    color: white;
+    width: 210px;
+    transition: width 0.1s ease-in, background-color 0.2s linear;
+}
+.botao-spotify:hover{
+    border: 1px solid white !important;
+    background-color: #1DB954;
+    color: black;
+    width: 205px;
+}
+.botao-youtube:hover{
+    border: 1px solid white !important;
+    background-color: #FF0000;
+    color: White;
+    width: 200px;
+}
+@media(min-width: 400px){
+    button{
+        border: 1px solid white !important;
+        background-color: transparent;
+        color: white;
+        width: 210px;
+        transition: width 0.1s ease-in, background-color 0.2s linear;
+        margin-bottom: 20px;
+    }
+}
+#titulo{
+    color: azure;
+    font-size: 400%;
+}
+button > i{
+    font-size: 2em;
+    padding: 8px;
+}
+button > .span-btn{
+    font-size: 1.8em;
+    padding: 8px;
+}
+#spotify-container{
+    margin-top: 200px !important;
+}
+div.card{
+    background-color: black;
+}
+img.card-img-top{
+    border-radius: 10px;
+}
+p.card-text{
+    color: #AAA !important;
+}
+a{
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+a:hover{
+    color: white !important;
+    text-decoration: underline !important;;
+}
+.rodape{
+    width: 100%;
+    background-color: #333;
+    color: White;
+}
