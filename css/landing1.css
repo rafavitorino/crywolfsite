@@ -86,9 +86,18 @@ button > .span-btn{
 div.card{
     background-color: black;
 }
+@media (max-width: 1600px) {
+    div.card{
+        width: 240px !important;
+    }   
+}
 img.card-img-top{
     border-radius: 10px;
+    cursor: pointer;
 }
+
+
+
 p.card-text{
     color: #AAA !important;
 }
@@ -105,3 +114,23 @@ a:hover{
     background-color: #333;
     color: White;
 }
+
+/* Estilo do botão */
+.back-to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 7px;
+    background-color: #000;
+    color: #222;
+    padding: 10px 15px;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 24px;
+    z-index: 1000;
+    display: none;
+    transition: background-color 0.3s;
+  }
+  
+  .back-to-top:hover {
+    background-color: #555;
+  }
